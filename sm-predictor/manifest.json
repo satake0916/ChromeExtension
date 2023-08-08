@@ -1,0 +1,12 @@
+{
+    "name": "sm-predictor",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Sample Chrome Extension",
+    "content_scripts": [{
+      "matches": ["https://smashmate.net/rate/*/"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }

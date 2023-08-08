@@ -1,0 +1,13 @@
+{
+    "name": "My Fave Answer",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Add button to show fave player's answer",
+    "content_scripts": [{
+      "matches": ["https://atcoder.jp/contests/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
+  
